@@ -17,7 +17,7 @@ body {
   }
 
   .row div {
-    border: solid lightgreen;
+    border: solid red;
   }
 
   h1 {
@@ -58,6 +58,11 @@ body {
   #navbar {
     background-color: var(--secondary);
     
+  }
+
+  .margin {
+    margin-left: 12em;
+    margin-right: 12em;
   }
 
 
