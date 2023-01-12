@@ -65,6 +65,27 @@ body {
     margin-right: 12em;
   }
 
+.hero-section {
+  
+}
+
+.hero-video {
+  z-index: -1;
+}
+
+.hero-text {
+  color: #fff;
+  padding: 0% 15%;
+  z-index: 0;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+
+
+
   @media only screen and (max-width: 960px) {
 
     h1 {
