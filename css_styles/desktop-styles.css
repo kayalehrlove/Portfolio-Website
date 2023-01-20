@@ -72,6 +72,35 @@ body {
 
 /*---MISC---*/
 
+/*---LINES BEG---*/
+
+.line1 {
+  height: 15px;
+  background-color: var(--secondary);
+}
+
+.line2 {
+  height: 10px;
+  background-color: var(--primary);
+}
+
+.line3 {
+  height: 8px;
+  background-color: var(--secondary);
+}
+
+.line4 {
+  height: 5px;
+  background-color: var(--primary);
+}
+
+.line5 {
+  height: 3px;
+  background-color: var(--secondary);
+}
+
+/*---LINES END---*/
+
  /*---MARGINS BEG---*/
 
  .intro-video {
@@ -145,7 +174,6 @@ nav {
   padding: 20px 8%;
   display: flex;
   align-items: center;
-  border: dotted;
   background-color: var(--secondary);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -189,14 +217,17 @@ nav h2 {
 }
 
 .content a {
+  width: 330px;
+  height: 58px;
+  background-color: var(--secondary);
   text-decoration: none;
   display: inline-block;
   color: #fff;
   font-size: 24px;
-  border: 2px solid #fff;
-  padding: 14px 70px;
-  border-radius: 15px;
-  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  margin-top: 90px;
+  box-shadow: 5px 5px black;
 }
 
 .content h1 {
