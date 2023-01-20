@@ -66,28 +66,60 @@ body {
 
   /*---MISC---*/
 
-  #navbar {
-    background-color: var(--secondary);
-    
-  }
+  
 
-  .margin {
-    margin-left: 12em;
-    margin-right: 12em;
-  }
-
-  .margin-video {
-    margin-left: 11em;
-    margin-right: 11em;
-  }
-
-  .intro-video {
-    width: 1063px;
-    height: 600px;
-    border: solid green;
-  }
+ 
 
 /*---MISC---*/
+
+ /*---MARGINS BEG---*/
+
+ .intro-video {
+  width: 1280px;
+  height: 720px;
+  box-shadow: 10px 10px var(--secondary);
+  border: solid black 3px;
+}
+
+ .margin {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.margin-video {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.professional-experience {
+  margin-top: 4em;
+}
+
+.pro-blurb {
+  margin-bottom: 2em;
+  margin-right: 600px;
+}
+
+.dev-skills {
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
+.know-me {
+  margin-top: 4em;
+}
+
+.know-me-blurb {
+  margin-bottom: 2em;
+  margin-right: 600px;
+}
+
+.inter-skills {
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
+/*---MARGINS END---*/
 
 
 /*---HERO VIDEO BEG---*/
@@ -103,6 +135,8 @@ body {
   justify-content: center;
 }
 
+/*---NAV---*/
+
 nav {
   width: 100%;
   position: absolute;
@@ -111,11 +145,16 @@ nav {
   padding: 20px 8%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  border: dotted;
+  background-color: var(--secondary);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 nav .logo {
-  width: 80px;
+  width: 50px;
+  margin-right: 5px;
+  margin-left: 50px;
 }
 
 nav ul li {
@@ -125,11 +164,25 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Lato', sans-serif;
 }
+
+.contact {
+  margin-right: 0;
+}
+
+nav h2 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  width: 250px;
+  margin-right: 650px;
+}
+
+
+/*---NAV---*/
 
 .content {
   text-align: center;
@@ -169,77 +222,4 @@ nav ul li a {
 /*---HERO VIDEO END---*/
 
 
-/*---HALF-SCREEN BEG---*/
 
-  @media only screen and (max-width: 960px) {
-
-    /*---FONTS BEG---*/
-
-    h1 {
-      font-family: 'Lato', sans-serif;
-      font-size: 52px;
-      font-weight: bold;
-    }
-  
-    h2 {
-      font-family: 'Crimson Pro', serif;
-      font-size: 42px;
-    }
-  
-    h3 {
-      font-family: 'Lato', sans-serif;
-      font-size: 52px;
-      font-weight: bold;
-      color: var(--secondary);
-    }
-  
-    h4 {
-      font-family: 'Lato', sans-serif;
-      font-size: 32px;
-      color: var(--secondary);
-    }
-  
-    h5 {
-      font-family: 'Lato', sans-serif;
-      font-size: 20px;
-    }
-  
-    h6 {
-      font-family: 'Lato', sans-serif;
-      font-size: 26px;
-      color: white;
-    }
-
-    /*---FONTS END---*/
-
-    /*---CLASSES BEG---*/
-
-    .intro-video {
-      width: 758px;
-      height: 428px;
-      align-items: left;
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .professional-experience {
-      margin-top: 2em;
-    }
-   
-
-    /*---CLASSES END---*/
-
-    .margin {
-      margin-left: 6em;
-      margin-right: 6em;
-    }
-
-    .margin-video {
-      margin-left: 5em;
-      margin-right: 5em;
-    }
-  }
-
-/*---HALF-SCREEN END---*/
