@@ -21,7 +21,7 @@ INDEX
 
 ---*/
 
-/*---ORGANIZE LINES BEG*/
+/*---ORGANIZE LINES BEG
 
   .container-fluid {
     border: solid blue;
@@ -40,7 +40,7 @@ INDEX
     border: solid purple;
   }
 
-  /*ORGANIZE LINES END---*/
+  ORGANIZE LINES END---*/
 
   /*---FONTS BEG---*/
 
@@ -113,7 +113,7 @@ INDEX
 
 .dev-skills {
   margin-top: 4em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .know-me {
@@ -123,15 +123,20 @@ INDEX
 
 .know-me-blurb {
   margin-bottom: 2em;
+  margin-right: 6em;
 }
 
 .inter-skills {
   margin-top: 4em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .blurb-space {
   margin-right: 6em;
+}
+
+.blurb-space2 {
+  margin-left: 6em;
 }
 
 /*---MARGINS END---*/
