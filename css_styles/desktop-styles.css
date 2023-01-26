@@ -102,31 +102,41 @@ INDEX
 }
 
 .professional-experience {
-  margin-top: 4em;
+  margin-top: 3em;
+  margin-bottom: 10px;
 }
 
 .pro-blurb {
   margin-bottom: 2em;
-  margin-right: 600px;
+  margin-left: 6em;
 }
 
 .dev-skills {
   margin-top: 4em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .know-me {
-  margin-top: 4em;
+  margin-top: 2em;
+  margin-bottom: 10px;
 }
 
 .know-me-blurb {
   margin-bottom: 2em;
-  margin-right: 600px;
+  margin-right: 6em;
 }
 
 .inter-skills {
   margin-top: 4em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+.blurb-space {
+  margin-right: 6em;
+}
+
+.blurb-space2 {
+  margin-left: 6em;
 }
 
 /*---MARGINS END---*/
@@ -408,7 +418,7 @@ a {
 /*---CONTACT BEG---*/
 
 #contact-form {
-  height: 789px;
+  height: 700px;
   background-color: var(--secondary);
 }
 
@@ -422,7 +432,7 @@ a {
 }
 
 .form-control {
-  width: 500px;
+  width: 600px;
   height: 60px;
   background: transparent;
   font-family: 'lato', 'san-serif';
@@ -467,3 +477,38 @@ button {
 }
 
 /*---CONTACT BEG---*/
+
+/*---FOOTER BEG---*/
+
+.footer {
+  height: 70px;
+  background-color: var(--primary);
+}
+
+.footer-icons {
+  height: 50px;
+  width: 50px;
+}
+
+#footer-name {
+  font-family: 'lato', 'sans-serif';
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+#linkedin-icon {
+  height: 60px;
+  width: 60px;
+}
+
+#insta-icon {
+  height: 60px;
+  width: 60px;
+}
+
+#copyright-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/*---FOOTER END---*/
