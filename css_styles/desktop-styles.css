@@ -14,12 +14,12 @@ body {
     width: 100%;
   }
 
-  ..row {
+  .row {
     border: solid yellow;
   }
 
-  ..row div {
-    border: solid red;
+  .row div {
+    border: solid green;
   }
 
   .border {
@@ -195,27 +195,37 @@ body {
 /*---LINES BEG---*/
 
 .line1 {
-  height: 15px;
+  height: 14px;
   background-color: var(--secondary);
 }
 
 .line2 {
-  height: 10px;
-  background-color: var(--primary);
-}
-
-.line3 {
-  height: 8px;
-  background-color: var(--secondary);
-}
-
-.line4 {
   height: 5px;
   background-color: var(--primary);
 }
 
+.line3 {
+  height: 11px;
+  background-color: var(--secondary);
+}
+
+.line4 {
+  height: 6px;
+  background-color: var(--primary);
+}
+
 .line5 {
-  height: 3px;
+  height: 8px;
+  background-color: var(--secondary);
+}
+
+.line6 {
+  height: 7px;
+  background-color: var(--primary);
+}
+
+.line7 {
+  height: 5px;
   background-color: var(--secondary);
 }
 
@@ -372,5 +382,65 @@ nav h2 {
 
 /*---HERO VIDEO END---*/
 
+/*---CONTACT BEG---*/
 
+#contact-form {
+  height: 789px;
+  background-color: var(--secondary);
+}
 
+#form-title {
+  color: white;
+  font-family: 'lato', 'san-serif';
+  font-weight: bold;
+  font-size: 45px;
+  padding-top: 20px;
+  padding-left: 95px;
+}
+
+.form-control {
+  width: 500px;
+  height: 60px;
+  background: transparent;
+  font-family: 'lato', 'san-serif';
+  font-size: 24px;
+  color: white;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.form-group {
+  padding-top: 40px;
+}
+
+#form-message {
+  height: 180px;
+  padding-bottom: 120px;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-family: 'lato', 'san-serif';
+  font-size: 20px;
+  border-radius: 4px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+}
+
+.send-icon {
+  width: 30px;
+}
+
+#form-line {
+  background-color: var(--primary);
+  height: 5px;
+  border-radius: 10px;
+}
+
+/*---CONTACT BEG---*/
