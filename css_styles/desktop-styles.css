@@ -7,6 +7,8 @@ body {
   background-color: var(--primary)
 }
 
+
+
 /*---
 
 INDEX
@@ -21,7 +23,7 @@ INDEX
 
 ---*/
 
-/*---ORGANIZE LINES BEG
+/*---ORGANIZE LINES BEG*/
 
   .container-fluid {
     border: solid blue;
@@ -40,7 +42,7 @@ INDEX
     border: solid purple;
   }
 
-  ORGANIZE LINES END---*/
+  /*ORGANIZE LINES END---*/
 
   /*---FONTS BEG---*/
 
@@ -92,13 +94,13 @@ INDEX
 }
 
  .margin {
-  margin-left: 6em;
-  margin-right: 6em;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .margin-video {
-  margin-left: 6em;
-  margin-right: 6em;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
 .professional-experience {
@@ -108,7 +110,9 @@ INDEX
 
 .pro-blurb {
   margin-bottom: 2em;
-  margin-left: 6em;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-right: 20em;
 }
 
 .dev-skills {
@@ -123,20 +127,13 @@ INDEX
 
 .know-me-blurb {
   margin-bottom: 2em;
-  margin-right: 6em;
+  margin-right: 10em;
+  margin-left: 10em;
 }
 
 .inter-skills {
   margin-top: 4em;
   margin-bottom: 2em;
-}
-
-.blurb-space {
-  margin-right: 6em;
-}
-
-.blurb-space2 {
-  margin-left: 6em;
 }
 
 /*---MARGINS END---*/
@@ -512,3 +509,4 @@ button {
 }
 
 /*---FOOTER END---*/
+
