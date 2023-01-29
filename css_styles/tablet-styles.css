@@ -1,102 +1,523 @@
+:root {
+  --primary: #ffe4cb;
+  --secondary: #cc3550;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+
 /*---HALF-SCREEN BEG---*/
 
 @media only screen and (max-width: 960px) {
 
-    /*---FONTS BEG---*/
+/*---
 
-    h1 {
-      font-family: 'Lato', sans-serif;
-      font-size: 52px;
-      font-weight: bold;
-    }
-  
-    h2 {
-      font-family: 'Crimson Pro', serif;
-      font-size: 42px;
-    }
-  
-    h3 {
-      font-family: 'Lato', sans-serif;
-      font-size: 52px;
-      font-weight: bold;
-      color: var(--secondary);
-    }
-  
-    h4 {
-      font-family: 'Lato', sans-serif;
-      font-size: 32px;
-      color: var(--secondary);
-    }
-  
-    h5 {
-      font-family: 'Lato', sans-serif;
-      font-size: 20px;
-    }
-  
-    h6 {
-      font-family: 'Lato', sans-serif;
-      font-size: 26px;
-      color: white;
-    }
+INDEX
+-fonts
+-margins
+-organize lines
+-nav
+-hero
+-cards
+-lines
+-contact
 
-    /*---FONTS END---*/
+---*/
 
-    /*---CLASSES BEG---*/
+/*---ORGANIZE LINES BEG
 
-    .intro-video {
-      width: 758px;
-      height: 428px;
-      align-items: left;
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: 0;
-      margin-right: 0;
-    }
+  .container-fluid {
+    border: solid blue;
+    width: 100%;
+  }
 
-  
-   
+  .row {
+    border: solid yellow;
+  }
 
-    /*---CLASSES END---*/
+  .row div {
+    border: solid black;
+  }
 
-    /*---MARGINS BEG---*/
+  .border {
+    border: solid purple;
+  }
 
-    .margin {
-      margin-left: 6em;
-      margin-right: 6em;
-    }
+  ORGANIZE LINES END---*/
 
-    .margin-video {
-      margin-left: 6em;
-      margin-right: 6em;
-    }
+  /*---FONTS BEG---*/
 
-    .professional-experience {
-      margin-top: 4em;
-    }
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: fff;
+  }
 
-    .pro-blurb {
-      margin-bottom: 2em;
-    }
+  h2 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 64px;
+  }
 
-    .dev-skills {
-      margin-top: 4em;
-      margin-bottom: 1em;
-    }
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--secondary);
+  }
 
-    .know-me {
-      margin-top: 4em;
-    }
+  h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    color: var(--secondary);
+  }
 
-    .know-me-blurb {
-      margin-bottom: 2em;
-    }
+  h5 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+  }
 
-    .inter-skills {
-      margin-top: 4em;
-      margin-bottom: 1em;
-    }
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    color: white;
+  }
 
-    /*---MARGINS END---*/
+  /*---FONTS END---*/
+
+/*---MARGINS BEG---*/
+
+ .intro-video {
+  width: 1280px;
+  height: 720px;
+  box-shadow: 10px 10px var(--secondary);
+  border: solid black 3px;
+}
+
+ .margin {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.margin-video {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.professional-experience {
+  margin-top: 3em;
+  margin-bottom: 10px;
+}
+
+.pro-blurb {
+  margin-bottom: 2em;
+  margin-left: 6em;
+}
+
+.dev-skills {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.know-me {
+  margin-top: 2em;
+  margin-bottom: 10px;
+}
+
+.know-me-blurb {
+  margin-bottom: 2em;
+  margin-right: 6em;
+}
+
+.inter-skills {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.blurb-space {
+  margin-right: 6em;
+}
+
+.blurb-space2 {
+  margin-left: 6em;
+}
+
+/*---MARGINS END---*/
+
+/*---NAV BEG---*/
+
+nav {
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav .logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact {
+  margin-right: 0;
+}
+
+nav h2 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  width: 250px;
+  margin-right: 650px;
+}
+
+
+/*---NAV END---*/
+
+/*---HERO VIDEO BEG---*/
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12,3,51,0,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.content {
+  text-align: center;
+}
+
+.content a {
+  width: 256px;
+  height: 48px;
+  background-color: var(--secondary);
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  margin-top: 30px;
+  box-shadow: 5px 5px black;
+}
+
+.content h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.content h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.back-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*---HERO VIDEO END---*/
+
+
+/*---CARDS BEG---*/
+
+  .card-left {
+    width: 300px;
+    height: 250px;
+    background-color: #fffbf5;
+    margin-right: 10em;
+    margin-bottom: 3em;
+    box-shadow: 10px 10px var(--secondary);
+    border: solid black 2px;
+  }
+
+  .card-right {
+    width: 300px;
+    height: 250px;
+    background-color: #fffbf5;
+    margin-bottom: 3em;
+    box-shadow: 10px 10px var(--secondary);
+    border: solid black 2px;
+  }
+
+  .card-blurb {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .card-logo {
+    background-color: black;
+    width: 60px;
+    height: 49px;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+
+  .card-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: var(--secondary);
+    margin-top: 30px;
+  }
+
+  .card-icon-js {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+
+  .card-title-js {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: var(--secondary);
+    margin-top: 25px;
+  }
+
+  .card-icon-html {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+
+  .card-icon-css {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+
+  .card-icon-bootstrap {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+
+  .card-icon-devops {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+
+  .card-icon-coming-soon {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+
+  .card-icon-leadership {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 65px;
+  }
+
+  .card-icon-problem-solving {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+
+  .card-icon-speaking {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 65px;
+  }
+
+  .card-icon-communication {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+ 
+
+/*---CARDS END---*/
+
+/*---LINES BEG---*/
+
+.line1 {
+  height: 14px;
+  background-color: var(--secondary);
+}
+
+.line2 {
+  height: 5px;
+  background-color: var(--primary);
+}
+
+.line3 {
+  height: 11px;
+  background-color: var(--secondary);
+}
+
+.line4 {
+  height: 6px;
+  background-color: var(--primary);
+}
+
+.line5 {
+  height: 8px;
+  background-color: var(--secondary);
+}
+
+.line6 {
+  height: 7px;
+  background-color: var(--primary);
+}
+
+.line7 {
+  height: 5px;
+  background-color: var(--secondary);
+}
+
+/*---LINES END---*/
+
+/*---CONTACT BEG---*/
+
+#contact-form {
+  height: 700px;
+  background-color: var(--secondary);
+}
+
+#form-title {
+  color: white;
+  font-family: 'lato', 'san-serif';
+  font-weight: bold;
+  font-size: 45px;
+  padding-top: 20px;
+  padding-left: 95px;
+}
+
+.form-control {
+  width: 600px;
+  height: 60px;
+  background: transparent;
+  font-family: 'lato', 'san-serif';
+  font-size: 24px;
+  color: white;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.form-group {
+  padding-top: 40px;
+}
+
+#form-message {
+  height: 180px;
+  padding-bottom: 120px;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-family: 'lato', 'san-serif';
+  font-size: 20px;
+  border-radius: 4px;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+}
+
+.send-icon {
+  width: 30px;
+}
+
+#form-line {
+  background-color: var(--primary);
+  height: 5px;
+  border-radius: 10px;
+}
+
+/*---CONTACT BEG---*/
+
+/*---FOOTER BEG---*/
+
+.footer {
+  height: 70px;
+  background-color: var(--primary);
+}
+
+.footer-icons {
+  height: 50px;
+  width: 50px;
+}
+
+#footer-name {
+  font-family: 'lato', 'sans-serif';
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+#linkedin-icon {
+  height: 60px;
+  width: 60px;
+}
+
+#insta-icon {
+  height: 60px;
+  width: 60px;
+}
+
+#copyright-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/*---FOOTER END---*/
+
 
   }
 
