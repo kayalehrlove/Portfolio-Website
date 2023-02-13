@@ -23,7 +23,7 @@ INDEX
 
 ---*/
 
-/*---ORGANIZE LINES BEG*/
+/*---ORGANIZE LINES BEG
 
   .container-fluid {
     border: solid blue;
@@ -42,7 +42,7 @@ INDEX
     border: solid purple;
   }
 
-  /*ORGANIZE LINES END---*/
+  ORGANIZE LINES END---*/
 
   /*---FONTS BEG---*/
 
@@ -88,7 +88,7 @@ INDEX
 
  .intro-video {
   width: 1280px;
-  height: 720px;
+  height: 760px;
   box-shadow: 10px 10px var(--secondary);
   border: solid black 3px;
 }
@@ -106,13 +106,15 @@ INDEX
 .professional-experience {
   margin-top: 3em;
   margin-bottom: 10px;
+  margin-right: 0em;
+  padding-right: 0em;
 }
 
 .pro-blurb {
   margin-bottom: 2em;
   margin-left: 10em;
-  margin-right: 10em;
-  padding-right: 20em;
+  margin-right: 20em;
+  padding-right: 0em;
 }
 
 .dev-skills {
@@ -425,7 +427,7 @@ a {
   font-weight: bold;
   font-size: 45px;
   padding-top: 20px;
-  padding-left: 95px;
+  padding-bottom: 10px;
 }
 
 .form-control {
