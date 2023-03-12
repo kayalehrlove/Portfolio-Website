@@ -191,11 +191,15 @@
 
   nav ul {
     width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
   }
   
   nav ul li {
     list-style: none;
-    display: inline-block;
+    margin: 10px 0px;
+
   }
   
   nav ul li a {
